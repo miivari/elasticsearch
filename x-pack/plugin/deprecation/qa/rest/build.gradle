@@ -13,7 +13,7 @@ dependencies {
   javaRestTestImplementation project(path: ':x-pack:plugin:deprecation:qa:common')
   javaRestTestImplementation project(':client:rest-high-level')
   javaRestTestImplementation("com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}")
-  javaRestTestImplementation("com.fasterxml.jackson.core:jackson-databind:${versions.jackson}")
+  javaRestTestImplementation("com.fasterxml.jackson.core:jackson-databind:${versions.jackson_databind}")
 }
 
 // let the javaRestTest see the classpath of main

@@ -26,7 +26,7 @@ dependencies {
   testImplementation "commons-logging:commons-logging:${versions.commonslogging}"
   testImplementation "com.fasterxml.jackson.core:jackson-annotations:${versions.jackson}"
   testImplementation "com.fasterxml.jackson.core:jackson-core:${versions.jackson}"
-  testImplementation "com.fasterxml.jackson.core:jackson-databind:${versions.jackson}"
+  testImplementation "com.fasterxml.jackson.core:jackson-databind:${versions.jackson_databind}"
 }
 
 // we don't have additional tests for the tests themselves
