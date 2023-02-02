@@ -74,6 +74,7 @@ dependencies {
   api "io.netty:netty-handler:${versions.netty}"
   api "io.netty:netty-resolver:${versions.netty}"
   api "io.netty:netty-transport:${versions.netty}"
+  api "io.netty:netty-transport-native-unix-common:${versions.netty}"
 
   // reactor
   api "io.projectreactor.netty:reactor-netty:${versions.reactorNetty}"
