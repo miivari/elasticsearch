@@ -9,6 +9,7 @@
 package org.elasticsearch.tools.launchers;
 
 import org.yaml.snakeyaml.Yaml;
+import org.yaml.snakeyaml.LoaderOptions;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 import org.yaml.snakeyaml.error.YAMLException;
 
@@ -110,7 +111,7 @@ public final class MachineDependentHeap {
 
         @SuppressWarnings("unchecked")
         public static MachineNodeRole parse(InputStream config) {
-            Yaml yaml = new Yaml(new SafeConstructor());
+            Yaml yaml = new Yaml(new SafeConstructor(new LoaderOptions()));
             Map<String, Object> root;
             try {
                 root = yaml.load(config);
