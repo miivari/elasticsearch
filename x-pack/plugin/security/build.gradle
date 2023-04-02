@@ -66,6 +66,8 @@ dependencies {
   runtimeOnly 'com.google.guava:guava:19.0'
 
   // Dependencies for oidc
+  // NOTE: When upgrading json-smart remember to 
+  // also upgrade nimbus-jose-jwt which has json-smart as dependency
   api "com.nimbusds:oauth2-oidc-sdk:9.3.1"
   api "com.nimbusds:nimbus-jose-jwt:9.31"
   api "com.nimbusds:lang-tag:1.4.4"
