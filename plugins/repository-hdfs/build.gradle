@@ -48,7 +48,7 @@ dependencies {
     runtimeOnly "org.apache.hadoop:hadoop-client-runtime:${versions.hadoop}"
     implementation "org.apache.hadoop:hadoop-hdfs:${versions.hadoop}"
     api 'org.apache.htrace:htrace-core4:4.0.1-incubating'
-    runtimeOnly 'com.google.guava:guava:27.1-jre'
+    runtimeOnly 'com.google.guava:guava:32.1.3-jre'
     api 'com.google.protobuf:protobuf-java:2.5.0'
     api 'commons-logging:commons-logging:1.1.3'
     api "org.apache.logging.log4j:log4j-1.2-api:${versions.log4j}"
